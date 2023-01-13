@@ -10,9 +10,7 @@ public class WhenWorkingWithFloatingPointNumbers {
     public void convertCelsiusToFahrenheit(){
 
         double celsius = 50.0;
-        double fahrenheit = 0.0;
-
-        fahrenheit = (celsius * 1.8) + 32;  //formula conversion to
+        double fahrenheit = (celsius * 1.8) + 32;  //formula conversion to
         System.out.println("Value of temperature in fahrenheit: " +  fahrenheit);
     }
 
@@ -25,7 +23,5 @@ public class WhenWorkingWithFloatingPointNumbers {
         double pounds = kg * 2.20462262;
 
         System.out.println("Kilogram to pounds: " + pounds);
-
-
     }
 }
